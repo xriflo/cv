@@ -1,0 +1,225 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Florentina \textsc{Bratiloveanu}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & Romania  | 2 September 1992 \\
+\textsc{Phone:} & +40 727 187 395\\
+\textsc{email:} & \href{mailto:florentina.bratiloveanu@gmail.com}{florentina.bratiloveanu@gmail.com}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\emph{Current} & MSc in Computer Science, \textbf{The University Politehnica of Bucharest}\\
+\emph{2015-2017} & \textit{Artificial Intelligence Specialization}\\
+&\\
+\emph{September 2015} & BSc in Computer Science, \textbf{The University Politehnica of Bucharest}\\
+& \textit{Compilers Specialization}\\
+&\\
+
+\emph{July 2011} & Highschool, \textbf{“Traian” National College}, Drobeta Turnu-Severin, Romania\\
+& \textit{Mathematics-Informatics Specialization}\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+%\emph{Jul 2015 - Sept 2015} & Junior R&D Engineer at Fotonation, Romania \\
+\begin{tabular}{r|p{11cm}}
+
+\emph{Jan 2016 - Apr 2016} & Junior Developer at Temenos, Romania \\
+& \footnotesize{Worked with PHP, HTML, CSS, J2EE, JBoss, Maven, SVN for developing financial software.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\emph{Jul 2015 - Sept 2015} & Junior R\&D Engineer at Fotonation, Romania \\
+& \footnotesize{Worked with Matlab for developing machine learning algorithms and Torch for developing convolutional neural networks.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\emph{Jun 2014 - Sept 2014} & Junior Software Developer at Ixia, Romania\\
+& \footnotesize{Worked with Python for developing automation tools and C\# or ExtJS for modifying existing graphical user interface.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\emph{Jun 2013 - Jul 2013} & Intern at ACS Interactive, Romania\\
+& \footnotesize{Worked with HTML, CSS, PHP, MYSQL for developing small web projects.}
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Volunteer Experience}
+%\emph{Jul 2015 - Sept 2015} & Junior R&D Engineer at Fotonation, Romania \\
+\begin{tabular}{r|p{11cm}}
+
+\emph{Jun 2014 - present} & Member at ROSEdu, Romania\\
+& \footnotesize{For the last three summers, I have been organizing \href{http://workshop.rosedu.org/}{ROSEdu Summer Workshops}. This event is dedicated to students who want to improve their technical skills in a more relaxing atmosphere.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\emph{Oct 2013 - Jun 2015} & Trainer at Edusfera, Romania \\
+& \footnotesize{Digital Kids is a project proposed by Edusfera Association and consists of programming courses for children, where they can learn programming languages like Scratch or Javascript. My responsibilities are to teach different subjects and to provide explanations or support for children aged 8 to 14.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\emph{Nov 2012, 2013} & Volunteer at Sonoro, Romania\\
+& \footnotesize{SoNoRo Festival is an exceptional cultural event, designed to promote chamber music. My responsibilities included flyer distribution and organizing people at the event to find their places.}
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Basic Knowledge: & OpenMP, MPI, Pthreads, C\#, HTML, css\\
+
+Intermediate Knowledge: & C++, Javascript, Android, PHP, mySQL, Linux, Haskell, Scheme,\\
+& Lua\&Torch, Latex, Git, SVN\\ 
+Advanced Knowledge: & C, JavaSE, Python\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+%\emph{Jul 2015 - Sept 2015} & Junior R&D Engineer at Fotonation, Romania \\
+\begin{tabular}{r|p{11cm}}
+
+\emph{LCPL to C Translator}
+& \footnotesize{The syntactic and semantic analysis was already implemented, thus I had to implement the translation from LCPL to C language.}\\
+\multicolumn{2}{c}{} \\
+
+\emph{LLVM Code Generator}
+& \footnotesize{LLVM was used to generate intermediate code for the LCPL language. I had to design specific expressions for each LLVM expression.}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Particle Swarm Optimization}
+& \footnotesize{In my case, I used this algorithm for minimizing some objective functions. The algorithm is effective because it is a population based stochastic optimization technique. The simulation was implemented using Java.}\\
+\multicolumn{2}{c}{} \\
+
+\emph{TSP with Ant System}
+& \footnotesize{Ant Colony Optimization algorithm used in graphs is a good alternative to the classical exhaustive solution implemented with backtracking. Thus, it can get close to the optimal solution for the Travel Salesman Problem. The simulation was implemented using Java.}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Playing games with Q-Learning}
+& \footnotesize{The idea of the project is to use an algoritm capable of learning an action-value function for any game that has a Markov representation without having any prior knowledge. The project was implemented in Java and tested with Hanoi Towers and Treasure Hunt.}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Pickup Pack}
+& \footnotesize{Pickup Pack is an application written in Android, PHP and mySQL for sending packs from one town to another. I used Android for graphical interface, PHP as a server-side language and mySQL for information persistence.}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Flower Power Libray}
+& \footnotesize{Flower Power library is an application written in C\# and mySQL. I used C\# Windows Forms for graphical interface and mySQL as persistent storage. The purpose of the application was to keep records of borrowed books.}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Robot Path Planning}
+& \footnotesize{The purpose of the project was to plan the path of two robots into a labyrinth of rooms. This application was made using Scheme.}\\
+\multicolumn{2}{c}{} \\
+
+
+\emph{Network Simulation}
+& \footnotesize{Network Simulation is an application written in three distinct languages: Haskell, Scheme and Prolog. The purpose of the project was to observe the difference between implementations and paradigms, thus I have gained skills in adapting to different programming languages.}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & Fluent\\
+\textsc{French:} & Basic Knowledge\\
+\textsc{Romanian:} & Mothertongue\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Teaching, Roller skating, Trekking, Visiting\\
+Technology, Programming, Artificial Intelligence
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
